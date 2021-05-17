@@ -1,0 +1,2 @@
+gfortran glb.f90 rout.f90 tool.f90 spmod.f90 spar.f90 mater.f90 mgid.f90 tseries.f90 mpvd.f90 main.f90 lib/c_fortran_dgssv.o lib/libsuperlu.a lib/librefblas.a -lm -o m.out
+./m2.out /mnt/e/code/ffem/test/input
