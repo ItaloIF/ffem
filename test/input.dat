@@ -1,0 +1,32 @@
+Type of finite element      :   quad
+Number of nodes             :   4
+Number of point Integration :   4
+Number of DOF               :   2
+Dimension of stress Matrix  :   3
+Number of dimension         :   2
+Name of mesh file           :   '/mnt/e/code/ffem/test/beam.msh'
+Num. of ent. with fix       :   3
+# Fix Conditions of entities (Dim, Ent, 1, 2, 3...):
+0   1   0   0
+0   4   0   0
+1   4   0   0
+Number of material types    :   1
+# Value of properties (E, v, pe, sy):
+1000   0.2    1.0   1.0
+Num. of ent. with Mat.      :   1
+# Type of Mat. of entities (Dim, Ent, emat):
+2   1   1
+Tolerance                   :   1.0e-6
+Number of dynamic steps     :   30
+Max. number of iterations   :   40
+Time interval               :   0.005
+alfa                        :   1.0
+beta                        :   0.0
+gamma                       :   0.5
+delta                       :   0.25
+npri                        :   1
+nres                        :   52
+Number of load in nodes     :   2
+# Value of loads in nodes (id, L1, L2,...):
+2   0.0    -1.0
+3   0.0    -1.0
